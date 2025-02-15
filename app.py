@@ -6,8 +6,8 @@ import os
 import requests
 
 # Google Drive file IDs (Replace these with your actual file IDs)
-MODEL_FILE_ID = "https://drive.google.com/file/d/13cF0dmkd1Jx15q6mDXfVzXwIi7uPEclD/view?usp=sharing"
-PREPROCESSOR_FILE_ID = "https://drive.google.com/file/d/1hT4LANqLgObXz1hLaWeOguziPGDPxGFv/view?usp=sharing"
+MODEL_FILE_ID = "13cF0dmkd1Jx15q6mDXfVzXwIi7uPEclD"
+PREPROCESSOR_FILE_ID = "1hT4LANqLgObXz1hLaWeOguziPGDPxGFv"
 
 # Function to download files from Google Drive
 def download_file_from_google_drive(file_id, dest_path):
